@@ -7,7 +7,7 @@ $(document).ready(function(){
         
         // start ajax code
         $.ajax({
-            // url: URL("message.php"),
+            // url: URL("bot.php"),
             type: 'POST',
             data: 'text='+$value,
             success: function(result){
